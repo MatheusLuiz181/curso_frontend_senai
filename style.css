@@ -1,0 +1,76 @@
+/* Define variáveis para cores */
+:root {
+    --background-color: #FFFFFF;
+    --text-color: #696969;
+  }
+  
+  /* Aplica a cor de fundo para os seletores desejados */
+  #onetrust-consent-sdk #onetrust-pc-sdk,
+  #onetrust-consent-sdk #ot-search-cntr,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-switch.ot-toggle,
+  #onetrust-consent-sdk #onetrust-pc-sdk ot-grp-hdr1 .checkbox,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-title:after,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-sel-blk,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-cnt,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-anchor,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-ven-lst .consent-category,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-inactive-leg-btn,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-label-status,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-chkbox label span,
+  #onetrust-consent-sdk #onetrust-pc-sdk #clear-filters-handler,
+  #onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler {
+    background-color: var(--background-color);
+  }
+  
+  /* Aplica estilos de texto para seletores específicos */
+  #onetrust-consent-sdk #onetrust-pc-sdk h3,
+  #onetrust-consent-sdk #onetrust-pc-sdk h4,
+  #onetrust-consent-sdk #onetrust-pc-sdk h5,
+  #onetrust-consent-sdk #onetrust-pc-sdk h6,
+  #onetrust-consent-sdk #onetrust-pc-sdk p,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-ven-lst .ot-ven-opts p,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-desc,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-title,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-li-title,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-sel-all-hdr span,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-info,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-modal #modal-header,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-checkbox label span,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-sel-blk p,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-lst-title h3,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst .back-btn-handler p,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst .ot-ven-name {
+    color: var(--text-color);
+  }
+  
+  /* Aplica estilos de texto para o seletor .privacy-notice-link */
+  #onetrust-consent-sdk #onetrust-pc-sdk .privacy-notice-link {
+    color: var(--text-color); /* Defina a cor desejada aqui */
+  }
+  
+  /* Aplica estilos de texto para o seletor .category-vendors-list-handler */
+  #onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler {
+    color: var(--text-color); /* Defina a cor desejada aqui */
+  }
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-label-status,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-chkbox label span,
+  #onetrust-consent-sdk #onetrust-pc-sdk #clear-filters-handler
+  {
+      color: #696969;
+  }
+  
+  #onetrust-consent-sdk #onetrust-pc-sdk .privacy-notice-link,
+  #onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler,
+  #onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler + a,
+  #onetrust-consent-sdk #onetrust-pc-sdk .category-host-list-handler,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-ven-link,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-name a,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-acc-hdr .ot-host-expand,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-info a,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content #ot-pc-desc .ot-link-btn,
+  #onetrust-consent-sdk #onetrust-pc-sdk .ot-vnd-serv .ot-vnd-item .ot-vnd-info a,
+  #onetrust-consent-sdk #onetrust-pc-sdk #ot-lst-cnt .ot-vnd-info a
+  {
+      color: #3860BE;
+  }
+    
